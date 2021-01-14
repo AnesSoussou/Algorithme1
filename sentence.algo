@@ -19,6 +19,7 @@ END_FOR
 IF (c =" ") THEN
     nbmot := nbmot+1;
 END_IF
+write("the word number is",nbmot);
 for (i in s){
     switch (s[i]) {
     case 'a':
@@ -31,7 +32,7 @@ for (i in s){
     }
 }
 return nbvoy;   
-read(nbmot)
+
 
 
 END
